@@ -1,0 +1,36 @@
+.mp-proof_fixed{    
+    max-width: 250px;    
+    background-color: #cccccc;
+    border-top: 2px solid red;
+    padding: 5px;
+    z-index: 1000;
+    position: fixed;
+}
+
+.mp-position_bt-sx{bottom: 10px; left: 10px;}
+.mp-position_bt-dx{bottom: 10px;right: 10px;}
+.mp-position_up-sx{top: 10px;right: 10px;}
+.mp-position_up-dx{top: 10px;right: 10px;}
+
+.mp-proof_p{
+    font-size: 0.8em;
+    margin: 0px;
+}
+
+.mp-img-responsive{
+    max-width: 100%;
+    height: auto;
+    padding: 3px 15px;
+}
+
+.mp-proof-div{
+    float: left;
+}
+
+.mp-proof-width25{
+    width: 25%;
+}
+
+.mp-proof-width75{
+    width: 75%;
+}
