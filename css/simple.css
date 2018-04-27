@@ -7,6 +7,14 @@
     position: fixed;
 }
 
+.mp-proof-close{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    font-size: 0.6em;
+    cursor: pointer;
+}
+
 .mp-position_bt-sx{bottom: 10px; left: 10px;}
 .mp-position_bt-dx{bottom: 10px;right: 10px;}
 .mp-position_up-sx{top: 10px;right: 10px;}
@@ -15,12 +23,17 @@
 .mp-proof_p{
     font-size: 0.8em;
     margin: 0px;
+    padding-right: 5px;
+}
+.mp-proof_time{
+    font-size: 0.8em;
+    font-style: italic;
 }
 
 .mp-img-responsive{
     max-width: 100%;
     height: auto;
-    padding: 3px 15px;
+    padding: 3px 5px;
 }
 
 .mp-proof-div{
